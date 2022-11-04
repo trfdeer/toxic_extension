@@ -1,0 +1,37 @@
+.teapot-report::after {
+  content: "I'm a teapot";
+  background-color: #277da1;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 5px;
+}
+
+.loading-report::after {
+  content: "Loading...";
+  background-color: #577590;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 5px;
+}
+
+.positive-report::after {
+  content: "Positive";
+  background-color: #43aa8b;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 5px;
+}
+.neutral-report::after {
+  content: "Neutral";
+  background-color: #f9c74f;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 5px;
+}
+.negative-report::after {
+  content: "Negative";
+  background-color: #f94144;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 5px;
+}

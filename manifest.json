@@ -1,0 +1,16 @@
+{
+  "name": "Toxic Extension",
+  "description": "Check / Filter youtube comments as toxic",
+
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/watch?v=*"],
+      "run_at": "document_idle",
+      "js": ["toxic_app.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
